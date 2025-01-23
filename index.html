@@ -14,6 +14,7 @@
 		rel="stylesheet"
 		href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 	/>
+	<link rel="stylesheet" href="css/lightbox.css">
 	<link rel="stylesheet" href="css/app.min.css">
 </head>
 <body class='main'>
@@ -95,22 +96,65 @@
 	</header>
 <section class="hero" id="hero">
 	<div class="containerWide">
-		<div class="inner">
-			<div class="hero__wrapper">
-				<div class="hero__main">
-					<div class="content">
-						<h1 class="title">Производство сотового заполнителя и изделий из сотового картона с доставкой по России</h1>
-						<button class="btn btnRightIcon circleIcon">Наша продукция</button>
+		<div class="inner swiperHero swiper">
+			<div class="hero__list swiper-wrapper">
+				<div class="hero__slide swiper-slide">
+					<div class="slide__wrapper swiper-slide">
+						<div class="hero__main">
+							<div class="content">
+								<h1 class="title">Производство сотового заполнителя и изделий из сотового картона с доставкой по России</h1>
+								<button class="btn btnRightIcon circleIcon">Наша продукция</button>
+							</div>
+						</div>
+						<div class="hero__image">
+							<img src="./images/dist/hero_img.png" alt="">
+						</div>
 					</div>
 				</div>
-				<div class="hero__image">
-					<img src="./images/dist/hero_img.png" alt="">
+				<div class="hero__slide swiper-slide">
+					<div class="slide__wrapper">
+						<div class="hero__main">
+							<div class="content">
+								<h1 class="title">Производство сотового заполнителя и изделий из сотового картона с доставкой по России</h1>
+								<button class="btn btnRightIcon circleIcon">Наша продукция</button>
+							</div>
+						</div>
+						<div class="hero__image">
+							<img src="./images/dist/hero_img.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="hero__slide swiper-slide">
+					<div class="slide__wrapper">
+						<div class="hero__main">
+							<div class="content">
+								<h1 class="title">Производство сотового заполнителя и изделий из сотового картона с доставкой по России</h1>
+								<button class="btn btnRightIcon circleIcon">Наша продукция</button>
+							</div>
+						</div>
+						<div class="hero__image">
+							<img src="./images/dist/hero_img.png" alt="">
+						</div>
+					</div>
+				</div>
+				<div class="hero__slide swiper-slide">
+					<div class="slide__wrapper">
+						<div class="hero__main">
+							<div class="content">
+								<h1 class="title">Производство сотового заполнителя и изделий из сотового картона с доставкой по России</h1>
+								<button class="btn btnRightIcon circleIcon">Наша продукция</button>
+							</div>
+						</div>
+						<div class="hero__image">
+							<img src="./images/dist/hero_img.png" alt="">
+						</div>
+					</div>
 				</div>
 			</div>
-
-			<div class="hero__buttons">
-				<img src="./images/dist/hero_graph.svg" alt="">
+			<div class="hero__buttons swiper-pagination">
+				
 			</div>
+
 		</div>
 	</div>
 </section>
@@ -140,7 +184,7 @@
 </div>
 <section class="spheres spheresMainPage" id="spheres">
 	<div class="container">
-		<div class="inner swiper">
+		<div class="inner swiper swiperSpheres">
 			<div class="spheres__title">
 				<div class="content">
 					<h2 class="title">Сферы применения сотового заполнителя <img src="./images/dist/spheres_title.svg" alt=""></h2>
@@ -294,7 +338,7 @@
 							
 							
 						</div>
-						<div class="feedbackFooter__note"><img src="../images/dist/privacy_icon_w.svg" alt=""> Отправляя заявку вы соглашаетесь с действующей политикой конфиденциальности и обработки персональных данных</div>
+						<div class="feedbackFooter__note"><img src="./images/dist/privacy_icon_w.svg" alt=""> Отправляя заявку вы соглашаетесь с действующей политикой конфиденциальности и обработки персональных данных</div>
 					</form>
 				</div>
 			</div>
@@ -302,7 +346,7 @@
 				<div class="footer__main">
 					<div class="footer__info">
 						<div class="logo">
-							<img src="../images/dist/logo_white.svg" alt="">
+							<img src="./images/dist/logo_white.svg" alt="">
 						</div>
 						<div class="text">Стройиндустрии-р.рф 2024</div>
 						<div class="text">все права защищены </div>
@@ -352,6 +396,7 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
 <script src="js/app.min.js"></script>
 </body>
 </html>

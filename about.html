@@ -13,6 +13,7 @@
 		rel="stylesheet"
 		href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
 	/>
+	<link rel="stylesheet" href="css/lightbox.css">
 	<link rel="stylesheet" href="css/app.min.css">
 </head>
 <body class=''>
@@ -95,16 +96,22 @@
 <section class="aboutPage" id="about">
 	<div class="container">
 		<div class="inner">
-			<h1 class="about__title">ЦентрСтрой Индустрии</h1>
-            <ul class="about__breadcrumbs">
-                <li><a href="#">Главная</a></li>
-                <li><a href="#">О компании</a></li>
-            </ul> 
-            <div class="about__content">
-                <p class="desc">
-                    Наша компания специализируется на производстве высококачественного сотового заполнителя, используемого в производстве дверной, мебельной и упаковочной промышленности. Мы предлагаем инновационные решения, основанные на применении экологичных материалов, таких как бумага и картон, с учетом современных стандартов прочности, легкости и устойчивости к нагрузкам. Продукция компании отличается универсальностью, экономичностью и надежностью, что делает её востребованной как в крупном производстве, так и в индивидуальных проектах. «СтройИндустрии Р» – это ваш надежный партнер для создания легких и прочных конструкций, отвечающих требованиям экологической ответственности и современной эффективности.
-                </p>
+            <div class="about__pic">
+                <img src="./images/dist/about_page.png" alt="">
             </div>
+            <div class="about__wrapper">
+                <h1 class="about__title">ЦентрСтрой Индустрии</h1>
+                <ul class="about__breadcrumbs">
+                    <li><a href="#">Главная</a></li>
+                    <li><a href="#">О компании</a></li>
+                </ul> 
+                <div class="about__content">
+                    <p class="desc">
+                        Наша компания специализируется на производстве высококачественного сотового заполнителя, используемого в производстве дверной, мебельной и упаковочной промышленности. Мы предлагаем инновационные решения, основанные на применении экологичных материалов, таких как бумага и картон, с учетом современных стандартов прочности, легкости и устойчивости к нагрузкам. Продукция компании отличается универсальностью, экономичностью и надежностью, что делает её востребованной как в крупном производстве, так и в индивидуальных проектах. «СтройИндустрии Р» – это ваш надежный партнер для создания легких и прочных конструкций, отвечающих требованиям экологической ответственности и современной эффективности.
+                    </p>
+                </div>
+            </div>
+
 
 		</div>
 	</div>
@@ -138,7 +145,7 @@
                 <div class="numbers__item numbers__item--clients" data-count="0">
                     <div class="numbers__pic"><img src="./images/dist/numbers/numbers_4.svg" alt=""></div>
                     <div class="numbers__info">
-                        <div class="numbers__main"><span class="number">100</span><span class="text"> +</span></div>
+                        <div class="numbers__main"><span class="number">100</span><span class="text"></span></div>
                         <div class="numbers__note">Постоянных клиентов приобретают у нас</div>
                     </div>
                 </div>
@@ -162,7 +169,7 @@
                         <input class="formPhone" name="phone" type="tel" placeholder="Укажите ваш телефон*">
                         <input class="formEmail" name="email" type="email" placeholder="Укажите ваш email">
                     </div>
-                    <div class="feedback__note"><img src="../images/dist/privacy_icon.svg" alt=""> Отправляя заявку вы соглашаетесь с действующей политикой конфиденциальности и обработки персональных данных</div>
+                    <div class="feedback__note"><img src="./images/dist/privacy_icon.svg" alt=""> Отправляя заявку вы соглашаетесь с действующей политикой конфиденциальности и обработки персональных данных</div>
                     <button type="submit" class="btn btnRightIcon circleIcon">Отправить заявку</button>
             </form>
         </div>
@@ -202,7 +209,8 @@
             </div>
         </div>
         <div class="certificate__pic">
-            <img src="./images/dist/certificate.png" alt="">
+            <a class="img" href="./images/dist/certificate.png" data-lightbox="image-1" data-title="Сертификат"><img src="./images/dist/certificate.png" alt=""></a>
+            
         </div>
     </div>
 </section>
@@ -242,7 +250,7 @@
 							
 							
 						</div>
-						<div class="feedbackFooter__note"><img src="../images/dist/privacy_icon_w.svg" alt=""> Отправляя заявку вы соглашаетесь с действующей политикой конфиденциальности и обработки персональных данных</div>
+						<div class="feedbackFooter__note"><img src="./images/dist/privacy_icon_w.svg" alt=""> Отправляя заявку вы соглашаетесь с действующей политикой конфиденциальности и обработки персональных данных</div>
 					</form>
 				</div>
 			</div>
@@ -250,7 +258,7 @@
 				<div class="footer__main">
 					<div class="footer__info">
 						<div class="logo">
-							<img src="../images/dist/logo_white.svg" alt="">
+							<img src="./images/dist/logo_white.svg" alt="">
 						</div>
 						<div class="text">Стройиндустрии-р.рф 2024</div>
 						<div class="text">все права защищены </div>
@@ -300,6 +308,7 @@
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="js/lightbox-plus-jquery.min.js"></script>
 <script src="js/app.min.js"></script>
 </body>
 </html>
